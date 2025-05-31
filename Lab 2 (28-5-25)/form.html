@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <style>
+        body {
+          background-image: url("/new.jpg");
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: right top;
+          margin-right: 200px;
+          
+        }
+        div {
+  background-color: lightgrey;
+  width: 300px;
+  border: 15px solid rgb(0, 211, 248);
+  padding: 50px;
+  margin: 20px;
+  margin: auto;
+}
+        </style>
+</head>
+<body>
+    <form action="/action_page.php">
+        <label style="color: palegoldenrod;" for="fname">First name:</label><br>
+        <input  type="text" id="fname" name="fname" value="John"><br>
+        <label style="color: palegoldenrod;"  for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" value="Doe"><br><br>
+        <input type="submit" value="Submit">
+      </form> <br><br> 
+      <form>
+        <h2 style="color: white;">Date of Birth</h2>
+        <label for="cars" style="color: palegoldenrod;">Year</label>
+        <select >
+            <option >1998</option>
+            <option >1999</option>
+            <option >2001</option>
+            <option >2002</option>
+            <option >2003</option>
+            <option >2004</option>
+            <option >2005</option>
+        
+            <option >february</option>
+        </select>
+        <label style="color: palegoldenrod;" >Month</label>
+        <select >
+            <option >january</option>
+            <option >february</option>
+        </select>
+        <label style="color: palegoldenrod;" >Day</label>
+        <select name="" id="">
+            <option >1</option>
+        <option >2</option>
+        </select>
+        <input type="submit">
+      </form>
+      <br><br><br>
+
+      <h2  style="border: 1px solid yellow ; color:white ">A solid border</h2>
+
+      <h2  style="color: white">Demonstrating the Box Model</h2>
+
+<p style="color: pink;">The CSS box model is essentially a box that wraps around every HTML element. It consists of: borders, padding, margins, and the actual content.</p>
+
+<div>This text is the content of the box. We have added a 50px padding, 20px margin and a 15px green border. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+      
+</body>
+</html>
